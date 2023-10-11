@@ -1,57 +1,57 @@
 :root {
-    --main-color: #212121;
-    --web-color: #2196f3;
-    --link-color: #2196f3;
-    --black: #000000;
-    --inactive-link: #212121;
-    --inactive-link2: #757575;
-    --main-section: #2f303a;
-    --white: #ffffff;
-    --details-color: #757575;
-    --our-team: #f5f4fa;
-    --footer-color: #2f303a;
-    --footer-color-contact: rgba(100%, 100%, 100%, 60%);
-    --color-buton-focus: #0190ec;
-    --svg-fill-white_bg: #afb1b8;
-  }
-  
-  body {
-    font-family: "Roboto", sans-serif;
-  }
-  ul {
-    list-style-type: none;
-  }
-  /*---------------Header-----------------------*/
-  .logo-link {
-    text-decoration: none;
-  }
-  .logo {
-    font-family: "Raleway", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 3%;
-  }
-  .logo-web {
-    color: var(--web-color);
-  }
-  .logo-studio {
-    color: var(--black);
-  }
-  /* Header Navigation */
-  
-  .global-header .main-nav a {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 2%;
-    color: var(--inactive-link);
-  }
-  .global-header .main-nav a {
-    text-decoration: none;
-  }
-  .current {
-    color: var(--link-color);
+  --main-color: #212121;
+  --web-color: #2196f3;
+  --link-color: #2196f3;
+  --black: #000000;
+  --inactive-link: #212121;
+  --inactive-link2: #757575;
+  --main-section: #2f303a;
+  --white: #ffffff;
+  --details-color: #757575;
+  --our-team: #f5f4fa;
+  --footer-color: #2f303a;
+  --footer-color-contact: rgba(100%, 100%, 100%, 60%);
+  --color-buton-focus: #0190ec;
+  --svg-fill-white_bg: #afb1b8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+/*---------------Header-----------------------*/
+.logo-link {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 3%;
+}
+.logo-web {
+  color: var(--web-color);
+}
+.logo-studio {
+  color: var(--black);
+}
+/* Header Navigation */
+
+.global-header .main-nav a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 2%;
+  color: var(--inactive-link);
+}
+.global-header .main-nav a {
+  text-decoration: none;
+}
+.current {
+  color: var(--link-color);
   padding: 32px;
   box-shadow: inset 0px -4px 0px 0px rgba(33, 150, 243, 1);
   position: relative;
@@ -93,166 +93,166 @@
   color: var(--inactive-link2);
 }
 
-  /*-------------------------------------Main---------------------*/
-  .main {
-    background-color: var(--main-section);
-  }
-  .main-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 6%;
-    text-align: center;
-    color: var(--white);
-  }
-  .main-buton {
-    width: 200px;
-    height: 50px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 6%;
-    color: var(--white);
-    background-color: var(--web-color);
-    border: none;
-    cursor: pointer;
-  }
-  .main-buton:hover {
-    background-color: var(--color-buton-focus);
-  }
-  .main-skil {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16.41px;
-    padding-top: 30px;
-    letter-spacing: 3%;
-    color: var(--main-color);
-  }
-  .main-skil-details {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 3%;
-    color: var(--details-color);
-  }
-  .main-what-we-do {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 3%;
-    text-align: center;
-    color: var(--main-color);
-  }
-  .main-background {
-    background-color: var(--our-team);
-  }
-  .main-our-team {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 3%;
-    text-align: center;
-    color: var(--main-color);
-  }
-  .main-our-team-name {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: 3%;
-    text-align: center;
-    color: var(--main-color);
-  }
-  .main-our-team-name-job {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.18;
-    letter-spacing: 3%;
-    text-align: center;
-    color: var(--details-color);
-  }
-  /* ----------------------------------- Portfolio-main -----------------------------------*/
-  .button-list button {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 3%;
-    color: var(--main-color);
-    border: none;
-    cursor: pointer;
-  }
-  .button-list button:hover,
-  .button-list button:active,
-  .button-list button:focus {
-    color: var(--white);
-    background-color: var(--link-color);
-  }
-  .main-title-images {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 2;
-    letter-spacing: 6%;
-    color: var(--main-color);
-  }
-  .main-title-images-description {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: 3%;
-    color: var(--details-color);
-  }
-  /* ---------------------- Footer --------------------*/
-  .global-footer {
-    background-color: var(--footer-color);
-  }
-  .logo-link {
-    text-decoration: none;
-  }
-  .logo-footer {
-    font-family: "Raleway", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.19;
-    letter-spacing: 3%;
-  }
-  .logo-web-footer {
-    color: var(--web-color);
-  }
-  .logo-studio-footer {
-    color: var(--white);
-  }
-  .address span {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.14;
-    letter-spacing: 3%;
-    font-style: normal;
-  }
-  .footer-adress {
-    color: var(--white);
-  }
-  
-  .address a[href^="mailto"],
-  .address a[href^="tel"] {
-    color: var(--footer-color-contact);
-    font-size: 14px;
-    line-height: 1.14;
-    font-style: normal;
-  }
-  .address a {
-    text-decoration: none;
-  }
-  .address a:active,
-  .address a:hover,
-  .address a:focus,
-  .address a:visited:active,
-  .address a:visited:hover,
-  .address a:visited:focus {
-    color: var(--link-color);
-  }
-  .address a:visited {
-    color: var(--inactive-link2);
-  }
-  /* ---------------------- Tema 3 --------------------*/
+/*-------------------------------------Main---------------------*/
+.main {
+  background-color: var(--main-section);
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 6%;
+  text-align: center;
+  color: var(--white);
+}
+.main-buton {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 6%;
+  color: var(--white);
+  background-color: var(--web-color);
+  border: none;
+  cursor: pointer;
+}
+.main-buton:hover {
+  background-color: var(--color-buton-focus);
+}
+.main-skil {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 3%;
+  padding-top: 30px;
+  color: var(--main-color);
+}
+.main-skil-details {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 3%;
+  color: var(--details-color);
+}
+.main-what-we-do {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  text-align: center;
+  color: var(--main-color);
+}
+.main-background {
+  background-color: var(--our-team);
+}
+.main-our-team {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 3%;
+  text-align: center;
+  color: var(--main-color);
+}
+.main-our-team-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 3%;
+  text-align: center;
+  color: var(--main-color);
+}
+.main-our-team-name-job {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 3%;
+  text-align: center;
+  color: var(--details-color);
+}
+/* ----------------------------------- Portfolio-main -----------------------------------*/
+.button-list button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 3%;
+  color: var(--main-color);
+  border: none;
+  cursor: pointer;
+}
+.button-list button:hover,
+.button-list button:active,
+.button-list button:focus {
+  color: var(--white);
+  background-color: var(--link-color);
+}
+.main-title-images {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 6%;
+  color: var(--main-color);
+}
+.main-title-images-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  color: var(--details-color);
+}
+/* ---------------------- Footer --------------------*/
+.global-footer {
+  background-color: var(--footer-color);
+}
+.logo-link {
+  text-decoration: none;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 3%;
+}
+.logo-web-footer {
+  color: var(--web-color);
+}
+.logo-studio-footer {
+  color: var(--white);
+}
+.address span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 3%;
+  font-style: normal;
+}
+.footer-adress {
+  color: var(--white);
+}
+
+.address a[href^="mailto"],
+.address a[href^="tel"] {
+  color: var(--footer-color-contact);
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+}
+.address a {
+  text-decoration: none;
+}
+.address a:active,
+.address a:hover,
+.address a:focus,
+.address a:visited:active,
+.address a:visited:hover,
+.address a:visited:focus {
+  color: var(--link-color);
+}
+.address a:visited {
+  color: var(--inactive-link2);
+}
+/* ---------------------- Tema 3 --------------------*/
 /* ---------------------- Header --------------------*/
 body {
   margin: 0;
@@ -290,8 +290,8 @@ body {
 .global-header .global-header-contact {
   display: flex;
   justify-content: space-between;
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
 .global-header-container {
   display: flex;
@@ -366,9 +366,10 @@ body {
 .main-our-team-description li {
   background-color: #ffffff;
 }
+
 /* ---------------------- Footer --------------------*/
 .logo-footer {
-  padding: 60px 1240px 28px 215px;
+  padding: 60px 0px 28px 215px;
   margin: 0 auto;
 }
 .global-footer-container ul {
@@ -377,7 +378,7 @@ body {
   justify-content: space-between;
   height: 72px;
   margin: 0px;
-  padding: 0px 1154px 60px 215px;
+  padding: 0px 0px 60px 215px;
   margin: 0 auto;
 }
 /* ---------------------- Portofolio --------------------*/
